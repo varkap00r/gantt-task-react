@@ -14,6 +14,8 @@ export interface Task {
   name: string;
   start: Date;
   end: Date;
+  taskStatus: string;
+  PIC: string;
   /**
    * From 0 to 100
    */

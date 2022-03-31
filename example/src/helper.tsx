@@ -6,6 +6,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 1),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 15),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Some Project",
       id: "ProjectSample",
       progress: 25,
@@ -22,6 +24,8 @@ export function initTasks() {
         12,
         28
       ),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Idea",
       id: "Task 0",
       progress: 45,
@@ -32,6 +36,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 2),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 4, 0, 0),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Research",
       id: "Task 1",
       progress: 25,
@@ -43,6 +49,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 4),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 8, 0, 0),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Discussion with team",
       id: "Task 2",
       progress: 10,
@@ -54,6 +62,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 8),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 9, 0, 0),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Developing",
       id: "Task 3",
       progress: 2,
@@ -65,6 +75,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 8),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 10),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Review",
       id: "Task 4",
       type: "task",
@@ -76,6 +88,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 15),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 15),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Release",
       id: "Task 6",
       progress: currentDate.getMonth(),
@@ -87,6 +101,8 @@ export function initTasks() {
     {
       start: new Date(currentDate.getFullYear(), currentDate.getMonth(), 18),
       end: new Date(currentDate.getFullYear(), currentDate.getMonth(), 19),
+      taskStatus: "Pending",
+      PIC: "KAPOOR",
       name: "Party Time",
       id: "Task 9",
       progress: 0,

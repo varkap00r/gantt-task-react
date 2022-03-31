@@ -59,6 +59,44 @@ export const TaskListHeaderDefault: React.FC<{
         >
           &nbsp;To
         </div>
+        
+
+
+        <div
+          className={styles.ganttTable_HeaderSeparator}
+          style={{
+            height: headerHeight * 0.5,
+            marginTop: headerHeight * 0.25,
+          }}
+        />
+        <div
+          className={styles.ganttTable_HeaderItem}
+          style={{
+            minWidth: rowWidth,
+          }}
+        >
+          &nbsp;Status
+        </div>
+
+        <div
+          className={styles.ganttTable_HeaderSeparator}
+          style={{
+            height: headerHeight * 0.5,
+            marginTop: headerHeight * 0.25,
+          }}
+        />
+        <div
+          className={styles.ganttTable_HeaderItem}
+          style={{
+            minWidth: rowWidth,
+          }}
+        >
+          &nbsp;PIC
+        </div>
+
+        
+
+
       </div>
     </div>
   );
